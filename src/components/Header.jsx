@@ -6,7 +6,7 @@ const Header = ({ scrollToSection }) => {
   };
 
   return (
-    <div className="flex z-20 h-16 bg-slate-800 border-[1px] border-[#00142C] justify-center items-center gap-8 fixed top-0 right-0 w-full font-medium ">
+    <div className="flex z-20 h-16 bg-slate-800 border-[1px] border-[#00142C] text-[#0EC9AC] justify-center items-center gap-8 fixed top-0 right-0 w-full font-medium ">
       <p className="cursor-pointer" onClick={() => handleLinkClick("first")}>
         HOME
       </p>
