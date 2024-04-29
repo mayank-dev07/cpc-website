@@ -1,19 +1,24 @@
+// App.js
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
-    <>
-      
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
-  )
+    <div className='flex flex-col min-h-screen bg-[#00142C] text-white'>
+        <Header scrollToSection={scrollToSection} />
+        <Main />
+        <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
