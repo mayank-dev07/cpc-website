@@ -14,7 +14,7 @@ const Main = () => {
         <Home />
       </div>
 
-      <div className="w-full h-[500px] relative  bg-cover flex justify-center items-center  bg-fixed bg-[url('src/assets/cpc_paralax.jpg')]">
+      <div className="w-full h-[500px] relative  bg-cover flex justify-center items-center  bg-fixed bg-[url('src/assets/test2.jpg')]">
         <div className="h-full py-8 flex flex-col justify-center items-center gap-16 backdrop-blur-md w-full ">
           <div className="w-full flex flex-col justify-center items-center gap-4">
             <p className="text-[#0EC9AC] text-6xl text-indigo-400 text-center">
