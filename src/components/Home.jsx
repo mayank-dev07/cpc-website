@@ -1,12 +1,21 @@
 import React from "react";
+import { ReactTyped } from "react-typed";
 
 const Home = () => {
   return (
     <>
       <div id="1" className=" h-full w-full md:w-1/2 ">
         <div className="text-4xl md:text-6xl text-center text-[#0EC9AC] font-medium flex justify-center item-center py-6 font-sans md:font-serif w-full">
-          Cyber Peace Security
+          Cyber Peace&nbsp;
+          <ReactTyped
+            strings={["Security", "Cell"]}
+            typeSpeed={70}
+            backSpeed={60}
+            showCursor={false}
+            loop
+          />
         </div>
+
         <div className=" text-xl font-mono text-center  subpixel-antialiased  font-light py-2 md:py-4 px-4">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever

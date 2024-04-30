@@ -3,6 +3,7 @@ import ScrollSpy from "react-ui-scrollspy";
 import Domain from "./Domain";
 import Home from "./Home";
 import Members from "./Members";
+import Events from "./Events";
 
 const Main = () => {
   return (
@@ -33,6 +34,13 @@ const Main = () => {
       >
         <Domain />
       </div>
+
+      {/* <div
+        id="event"
+        className="h-full py-32 flex flex-col justify-center items-center gap-16"
+      >
+        <Events />
+      </div> */}
 
       <div
         id="members"
