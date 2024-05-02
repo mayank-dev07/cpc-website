@@ -18,7 +18,6 @@ const Countdown = ({ targetDate }) => {
     const difference = targetDateTime - new Date();
     let timeLeft = {};
 
-    console.log(difference);
     if (difference > 0) {
       timeLeft = {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
@@ -34,50 +33,32 @@ const Countdown = ({ targetDate }) => {
   const { days, hours, minutes, seconds } = timeLeft;
 
   return (
-    <div className="flex justify-center gap-8 h-full">
-      <div className="flex flex-col justify-center w-100 px-2 py-2 h-[50px] gap-5">
-        DAYS <div className="border-2 p-5">{days}</div>
+    <div className="flex justify-center gap-2 md:gap-8 h-[0px]">
+      <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5">
+        DAYS{" "}
+        <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
+          {days}
+        </div>
       </div>
-      <div className="flex flex-col justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
+      <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
         hours
-        <div className="border-2 p-5">{hours}</div>
+        <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
+          {hours}
+        </div>
       </div>
-      <div className="flex flex-col justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
+      <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
         minutes
-        <div className="border-2 p-5">{minutes}</div>
+        <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
+          {minutes}
+        </div>
       </div>
-      <div className="flex flex-col justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
+      <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
         seconds
-        <div className="border-2 p-5">{seconds}</div>
+        <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
+          {seconds}
+        </div>
       </div>
     </div>
-    // <div className="flex justify-center gap-2 md:gap-8 h-[0px]">
-    //   <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5">
-    //     DAYS{" "}
-    //     <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
-    //       {days}
-    //     </div>
-    //   </div>
-    //   <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
-    //     hours
-    //     <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
-    //       {hours}
-    //     </div>
-    //   </div>
-    //   <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
-    //     minutes
-    //     <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
-    //       {minutes}
-    //     </div>
-    //   </div>
-    //   <div className="flex flex-col items-center justify-center w-100 px-2 py-2 h-[50px] gap-5 uppercase ">
-    //     seconds
-    //     <div className="border-2 p-4 w-[65px] text-center text-2xl font-bold bg-gray-800 border-gray-800 rounded-md shadow-md shadow-[#0EC9AC]">
-    //       {seconds}
-    //     </div>
-    //   </div>
-    // </div>
-    //
   );
 };
 
