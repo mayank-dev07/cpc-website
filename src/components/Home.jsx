@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 
+
 const Home = () => {
   return (
     <>
@@ -11,7 +12,11 @@ const Home = () => {
             strings={["Security", "Cell"]}
             typeSpeed={70}
             backSpeed={60}
-            showCursor={false}
+            showCursor={true}
+//               .dollar-cursor {
+//   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"><text x="0" y="12" font-size="12">$</text></svg>'), auto;
+// }
+    
             loop
           />
         </div>

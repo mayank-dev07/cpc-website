@@ -4,6 +4,7 @@ import Domain from "./Domain";
 import Home from "./Home";
 import Members from "./Members";
 import Events from "./Events";
+import Countdown from "./Countdown";
 
 const Main = () => {
   return (
@@ -15,8 +16,8 @@ const Main = () => {
         <Home />
       </div>
 
-      <div className="w-full h-[500px] relative  bg-cover flex justify-center items-center  bg-fixed bg-[url('src/assets/test2.jpg')]">
-        <div className="h-full py-8 flex flex-col justify-center items-center gap-16 backdrop-blur-md w-full ">
+      <div className="w-full h-[500px]   bg-cover flex justify-center items-center  bg-fixed bg-[url('src/assets/test2.jpg')]">
+        <div className="h-full py-8 flex flex-col justify-center items-center gap-16 backdrop-blur-sm w-full ">
           <div className="w-full flex flex-col justify-center items-center gap-4">
             <p className="text-[#0EC9AC] text-6xl text-center">
               Welcome To KIET
@@ -30,17 +31,17 @@ const Main = () => {
 
       <div
         id="second"
-        className="h-full py-32  flex flex-col justify-center items-center gap-16"
+        className="h-full py-8  flex flex-col justify-center items-center gap-16"
       >
         <Domain />
       </div>
 
-      {/* <div
+      <div
         id="event"
         className="h-full py-32 flex flex-col justify-center items-center gap-16"
       >
         <Events />
-      </div> */}
+      </div>
 
       <div
         id="members"
