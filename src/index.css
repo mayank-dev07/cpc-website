@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+}

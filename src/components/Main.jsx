@@ -11,7 +11,7 @@ const Main = () => {
     <ScrollSpy offsetTop={"64px"}>
       <div
         id="first"
-        className="min-h-screen flex flex-col md:flex-row justify-center items-center  w-full  px-8 md:px-12 gap-4 md:gap-12 py-12 md:py-16 md:py-0 "
+        className="min-h-screen flex flex-col md:flex-row justify-center items-center   px-2 md:px-12 gap-4 md:gap-12 py-12 md:py-16 md:py-0 "
       >
         <Home />
       </div>
