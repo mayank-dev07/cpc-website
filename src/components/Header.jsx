@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button, Drawer, Radio, Space } from "antd";
 
 const Header = ({ scrollToSection }) => {
   const handleLinkClick = (sectionId) => {
     scrollToSection(sectionId);
+  };
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
   };
 
   return (
@@ -25,7 +33,47 @@ const Header = ({ scrollToSection }) => {
           MEMBERS
         </p>
       </div>
+
       <div>~$</div>
+
+      {/* <Button type="primary" onClick={showDrawer}>
+        Open
+      </Button> */}
+
+      <Drawer
+        title="Cyber Peace Cell"
+        placement={"right"}
+        closable={false}
+        onClose={onClose}
+        open={open}
+      >
+        <div className="flex flex-col gap-8 text-white">
+          <p
+            className="cursor-pointer"
+            onClick={() => handleLinkClick("first")}
+          >
+            HOME
+          </p>
+          <p
+            className="cursor-pointer"
+            onClick={() => handleLinkClick("second")}
+          >
+            DOMIAN
+          </p>
+          <p
+            className="cursor-pointer"
+            onClick={() => handleLinkClick("event")}
+          >
+            Events
+          </p>
+          <p
+            className="cursor-pointer"
+            onClick={() => handleLinkClick("members")}
+          >
+            MEMBERS
+          </p>
+        </div>
+      </Drawer>
     </div>
   );
 };

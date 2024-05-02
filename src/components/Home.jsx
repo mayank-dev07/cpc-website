@@ -1,12 +1,13 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
+// import Terminal from "./Terminal";
 
 const Home = () => {
   return (
     <>
       <div className=" h-full w-full md:w-1/2 ">
-        <div className="text-4xl md:text-6xl text-center text-[#0EC9AC] font-medium flex justify-center item-center py-6 font-sans md:font-serif w-full">
-          Cyber Peace&nbsp;
+        <div className="text-4xl md:text-5xl lg:text-6xl text-center text-[#0EC9AC] font-medium flex justify-center item-center py-6 font-sans md:font-serif w-full">
+          Cyber&nbsp;Peace&nbsp;
           <ReactTyped
             strings={["Security", "Cell"]}
             typeSpeed={70}
@@ -27,7 +28,7 @@ const Home = () => {
           scrambled it to make a type specimen book.
         </div>
       </div>
-      <div id="1" className=" h-full md:w-1/2 flex justify-center items-center">
+      <div className=" h-full w-full md:w-1/2 flex justify-center items-center">
         <img src="src\assets\cyber.png"></img>
       </div>
     </>

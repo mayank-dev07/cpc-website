@@ -1,8 +1,9 @@
 // App.js
-import { useState } from "react";
+import React from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import { ConfigProvider } from "antd";
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -13,11 +14,22 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen  bg-[#00142C] text-white">
-      <Header scrollToSection={scrollToSection} />
-      <Main />
-      <Footer />
-    </div>
+    <ConfigProvider
+      theme={{
+        components: {
+          Drawer: {
+            colorBgElevated: "#00142C",
+            colorText: "#ffffff",
+          },
+        },
+      }}
+    >
+      <div className="flex flex-col min-h-screen max-w-screen  bg-[#00142C] text-white">
+        <Header scrollToSection={scrollToSection} />
+        <Main />
+        <Footer />
+      </div>
+    </ConfigProvider>
   );
 }
 

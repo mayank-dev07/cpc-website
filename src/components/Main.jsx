@@ -31,21 +31,21 @@ const Main = () => {
 
       <div
         id="second"
-        className="h-full py-8  flex flex-col justify-center items-center gap-16"
+        className="h-full py-20 flex flex-col justify-center items-center gap-8"
       >
         <Domain />
       </div>
 
       <div
         id="event"
-        className="h-full py-32 flex flex-col justify-center items-center gap-16"
+        className="h-full flex flex-col justify-center items-center gap-16"
       >
         <Events />
       </div>
 
       <div
         id="members"
-        className="h-full py-32 flex flex-col justify-center items-center gap-16"
+        className="h-full py-20 flex flex-col justify-center items-center gap-16"
       >
         <Members />
       </div>
