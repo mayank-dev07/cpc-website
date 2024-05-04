@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import { ConfigProvider } from "antd";
-import ParticleBackground from "./components/ParticleBackgroung";
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -33,7 +32,6 @@ function App() {
         },
       }}
     >
-      <ParticleBackground />
       <div className="flex flex-col min-h-screen max-w-screen  bg-[#00142C] text-white font-mono">
         <Header scrollToSection={scrollToSection} />
         <div className="fixed h-full w-full flex justify-center items-center ">
