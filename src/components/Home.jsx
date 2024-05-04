@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <div className=" h-full w-full md:w-1/2 ">
-        <div className="text-2xl md:text-5xl lg:text-6xl text-center text-[#0EC9AC] flex justify-center item-center py-6 md: w-full">
+        <div className="text-2xl md:text-4xl lg:text-5xl text-center text-[#0EC9AC] flex justify-center item-center py-6 md: w-full">
           Cyber&nbsp;Peace&nbsp;
           <ReactTyped
             strings={["Security", "Cell"]}

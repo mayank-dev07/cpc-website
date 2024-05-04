@@ -49,6 +49,7 @@ const Main = () => {
             id="timeline"
             className="h-full py-16 flex flex-col justify-center items-center gap-8"
           >
+            <div></div>
             <div className="w-full flex flex-col justify-center items-center gap-4">
               <p className="text-[#0EC9AC] text-2xl ">Our Timeline</p>
               <p className="text-4xl ">About Club</p>
