@@ -24,6 +24,7 @@ function App() {
         },
       }}
     >
+    
       <div className="flex flex-col min-h-screen max-w-screen  bg-[#00142C] text-white">
         <Header scrollToSection={scrollToSection} />
         <Main />

@@ -7,7 +7,7 @@ const Events = () => {
     <>
       <div className=" w-full h-full bg-cover bg-no-repeat bg-[url('src/assets/cpc_paralax.jpg')] ">
         <div className="flex flex-col justify-center items-center backdrop-grayscale w-full h-full py-12">
-          <div className="h-full w-full md:w-1/2 py-2 flex flex-col gap-12 ">
+          <div className="h-full w-full md:w-1/2 py-4 flex flex-col gap-12 ">
             <div className="  text-center flex gap-10 justify-center ">
               <div className="flex gap-4 ">
                 <CalendarDays />

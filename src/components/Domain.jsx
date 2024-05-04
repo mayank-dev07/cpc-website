@@ -35,73 +35,65 @@ const Domain = () => {
         <p className="text-4xl font-serif">What We Offer</p>
       </div>
       <div
-        className="flex flex-wrap flex-row w-full justify-center items-center  gap-12"
+        className="flex flex-wrap flex-row w-full justify-center items-center  gap-8 "
         // data-aos="zoom-in"
         // data-aos-duration="1500"
       >
         <div
           // data-aos="zoom-in-up"
-          className="min-h-[400px] w-8/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded-lg p-5 flex flex-col hover:scale-110 transition-transform duration-500"
+          className="min-h-[280px] w-10/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded- p-5 flex flex-col hover:scale-110 transition-transform duration-500"
         >
           <div className="w-full flex justify-center py-4">
-            <img src="src/assets/security.png" alt="" width={"50px"} />
+            <img src="src/assets/security.png" alt="" width={"40px"} />
           </div>
-          <p className="text-center text-3xl text-[#0EC9AC] font-serif py-4">
-            Network Security
+          <p className="w-full flex justify-center items-center text-2xl text-[#0EC9AC] font-serif py-4">
+            Network&nbsp;Security
           </p>
-          <p className="text-center font-serif text-lg ">
+          <p className="text-center font-serif text-base ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            reiciendis illo impedit, ducimus quae consequatur enim aliquam,
-            nesciunt laboriosam, fuga odit excepturi beatae debitis. Animi neque
-            laborum voluptatum aut optio?
+            reiciendis illo impedit, 
           </p>
         </div>
-        <div className="min-h-[400px] w-8/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded-lg p-5 flex flex-col  hover:scale-110 transition-transform duration-500">
+        <div className="min-h-[280px] w-10/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded- p-5 flex flex-col  hover:scale-110 transition-transform duration-500">
           <div className="w-full flex justify-center py-4">
-            <img src="src/assets/database.png" alt="" width={"50px"} />
+            <img src="src/assets/database.png" alt="" width={"40px"} />
           </div>
-          <p className="text-center text-3xl text-[#0EC9AC] font-serif py-4">
-            Database Security
+          <p className="w-full flex justify-center items-center text-2xl text-[#0EC9AC] font-serif py-4">
+            Database&nbsp;Security
           </p>
-          <p className="text-center font-serif text-lg">
+          <p className="text-center font-serif text-base">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            reiciendis illo impedit, ducimus quae consequatur enim aliquam,
-            nesciunt laboriosam, fuga odit excepturi beatae debitis. Animi neque
-            laborum voluptatum aut optio?
+            reiciendis illo impedit,
           </p>
         </div>{" "}
         <div
           // data-aos="zoom-in-up"
-          className="min-h-[400px] w-8/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded-lg p-5 flex flex-col  hover:scale-110 transition-transform duration-500"
+          className="min-h-[280px] w-10/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded- p-5 flex flex-col  hover:scale-110 transition-transform duration-500"
         >
           <div className="w-full flex justify-center py-4">
-            <img src="src/assets/globe.png" alt="" width={"50px"} />
+            <img src="src/assets/globe.png" alt="" width={"40px"} />
           </div>
-          <p className="text-center text-3xl text-[#0EC9AC] font-serif py-4">
-            Cloud Security
+          <p className="w-full flex justify-center items-center text-2xl text-[#0EC9AC] font-serif py-4">
+            Cloud&nbsp;Security
           </p>
-          <p className="text-center font-serif text-lg">
+          <p className="text-center font-serif text-base">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            reiciendis illo impedit, ducimus quae consequatur enim aliquam,
-            nesciunt laboriosam, fuga odit excepturi beatae debitis. Animi neque
-            laborum voluptatum aut optio?
+            reiciendis illo impedit,
           </p>
         </div>{" "}
         <div
           // data-aos="zoom-in-up"
-          className="min-h-[400px] w-8/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded-lg p-5 flex flex-col  hover:scale-110 transition-transform duration-500"
+          className="min-h-[280px] w-10/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded- p-5 flex flex-col  hover:scale-110 transition-transform duration-500"
         >
           <div className="w-full flex justify-center py-4">
-            <img src="src/assets/security.png" alt="" width={"50px"} />
+            <img src="src/assets/security.png" alt="" width={"40px"} />
           </div>
-          <p className="text-center text-3xl text-[#0EC9AC] font-serif py-4">
-            Network Security
+          <p className="w-full flex justify-center items-center text-2xl text-[#0EC9AC] font-serif py-4">
+            Network&nbsp;Security
           </p>
-          <p className="text-center font-serif text-lg">
+          <p className="text-center font-serif text-base">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            reiciendis illo impedit, ducimus quae consequatur enim aliquam,
-            nesciunt laboriosam, fuga odit excepturi beatae debitis. Animi neque
-            laborum voluptatum aut optio?
+            reiciendis illo impedit,
           </p>
         </div>
       </div>
