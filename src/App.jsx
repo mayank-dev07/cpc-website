@@ -21,12 +21,26 @@ function App() {
             colorBgElevated: "#00142C",
             colorText: "#ffffff",
           },
+          Timeline: {
+            tailColor: "#0EC9AC",
+            // margin: 30,
+            // lineHeight: 2,
+            lineType: "dashed",
+            dotBg: "transparent",
+            // controlHeightLG: 40,
+          },
         },
       }}
     >
-    
-      <div className="flex flex-col min-h-screen max-w-screen  bg-[#00142C] text-white">
+      <div className="flex flex-col min-h-screen max-w-screen  bg-[#00142C] text-white font-mono">
         <Header scrollToSection={scrollToSection} />
+        <div className="fixed h-full w-full flex justify-center items-center ">
+          <img
+            src="src/assets/cpclogo.png"
+            alt=""
+            className="h-max w-full md:w-1/2 opacity-40"
+          />
+        </div>
         <Main />
         <Footer />
       </div>

@@ -5,18 +5,18 @@ import Countdown from "./Countdown";
 const Events = () => {
   return (
     <>
-      <div className=" w-full h-full bg-cover bg-no-repeat bg-[url('src/assets/cpc_paralax.jpg')] ">
+      <div className=" w-full h-full bg-cover bg-no-repeat bg-fixed bg-[url('src/assets/cpc_paralax.jpg')] ">
         <div className="flex flex-col justify-center items-center backdrop-grayscale w-full h-full py-12">
           <div className="h-full w-full md:w-1/2 py-4 flex flex-col gap-12 ">
-            <div className="  text-center flex gap-10 justify-center ">
+            <div className="  text-center flex gap-6 md:gap-10 justify-center ">
               <div className="flex gap-4 ">
                 <CalendarDays />
-                yg87ig8uig89h9
+                29 May 2024
               </div>
               <div className="flex gap-1 py-2 border-[0.5px] "></div>
               <div className="flex gap-4">
                 <MapPin />
-                y8g87gi78
+                E-Block 301
               </div>
             </div>
             <div className="w-full  text-center  font-bold  text-6xl">

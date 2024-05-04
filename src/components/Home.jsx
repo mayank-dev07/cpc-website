@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <div className=" h-full w-full md:w-1/2 ">
-        <div className="text-4xl md:text-5xl lg:text-6xl text-center text-[#0EC9AC] font-medium flex justify-center item-center py-6 font-sans md:font-serif w-full">
+        <div className="text-2xl md:text-5xl lg:text-6xl text-center text-[#0EC9AC] flex justify-center item-center py-6 md: w-full">
           Cyber&nbsp;Peace&nbsp;
           <ReactTyped
             strings={["Security", "Cell"]}
@@ -21,7 +21,7 @@ const Home = () => {
           />
         </div>
 
-        <div className="text-base md:text-xl font-mono text-center  subpixel-antialiased  font-light py-2 md:py-4 px-4">
+        <div className="text-base md:text-xl text-center  subpixel-antialiased  font-light py-2 md:py-4 px-4">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
