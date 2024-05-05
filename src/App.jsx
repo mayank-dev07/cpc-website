@@ -38,7 +38,7 @@ function App() {
           <img
             src="cpclogo.png"
             alt=""
-            className="h-min w-min md:w-1/2 opacity-40"
+            className="h-min w-min md:w-1/3 opacity-40"
           />
         </div>
         <Main />
