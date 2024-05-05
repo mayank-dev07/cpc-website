@@ -12,7 +12,7 @@ const EventTimeline = () => {
               color: "#0EC9AC",
               children: (
                 <>
-                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-[#0EC9AC] text-lg rounded-lg shadow-md shadow-[#0EC9AC] px-8 py-4">
+                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-[#0EC9AC] text-lg rounded-lg shadow-md shadow-[#0EC9AC] px-3 md:px-8 py-4">
                     <div className="w-full flex justify-between items-center">
                       <span className=" w-fit px-3 py-1 bg-[#00142C] border-[#00142C] rounded-lg text-sm md:text-base">
                         29 May 2024
