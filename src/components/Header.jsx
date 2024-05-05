@@ -34,9 +34,9 @@ const Header = ({ scrollToSection }) => {
         </p>
         <p
           className="cursor-pointer"
-          onClick={() => handleLinkClick("members")}
+          onClick={() => handleLinkClick("timeline")}
         >
-          MEMBERS
+          TIMELINE
         </p>
         <p
           className="cursor-pointer"
@@ -46,9 +46,9 @@ const Header = ({ scrollToSection }) => {
         </p>
         <p
           className="cursor-pointer"
-          onClick={() => handleLinkClick("timeline")}
+          onClick={() => handleLinkClick("members")}
         >
-          TIMELINE
+          MEMBERS
         </p>
       </div>
 
