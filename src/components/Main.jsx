@@ -11,6 +11,13 @@ import Newsletter from "./Newsletter";
 const Main = () => {
   return (
     <>
+      <div className="fixed h-full w-full flex justify-center items-center ">
+        <img
+          src="/cpclogo.png"
+          alt=""
+          className="h-max bg-cover w-full md:w-1/2 lg:w-1/3 opacity-40"
+        />
+      </div>
       <div className="w-full h-full flex flex-col relative justify-center items-center">
         <ScrollSpy offsetTop={"64px"}>
           <div

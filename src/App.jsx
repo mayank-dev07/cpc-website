@@ -34,7 +34,7 @@ function App() {
     >
       <div className="flex flex-col min-h-screen max-w-screen  bg-[#00142C] text-white font-mono">
         <Header scrollToSection={scrollToSection} />
-        <div className="fixed h-screen w-full flex justify-center items-center ">
+        <div className="fixed h-full w-full flex justify-center items-center ">
           <img
             src="/cpclogo.png"
             alt=""
