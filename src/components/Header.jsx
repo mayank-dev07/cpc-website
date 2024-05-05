@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Drawer, Radio, Space } from "antd";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Header = ({ scrollToSection }) => {
   const handleLinkClick = (sectionId) => {
@@ -57,14 +57,15 @@ const Header = ({ scrollToSection }) => {
       <Menu onClick={showDrawer} className="flex md:hidden " />
 
       <Drawer
-        title={
+        title ={
           <>
-            <div>
+            <div className="w-full flex flex-row justify-between  ">
               <div>Cyber Peace cell</div>
-              <div>X</div>
+              <X onClick={onClose}/>
             </div>
           </>
         }
+        width={"80%"}
         placement={"right"}
         closable={false}
         onClose={onClose}
