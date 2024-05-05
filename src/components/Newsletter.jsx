@@ -13,7 +13,7 @@ const Newsletter = () => {
             <div className="min-h-[280px] w-11/12 sm:w-8/12 md:w-11/12 lg:w-5/12 bg-slate-800 p-5 rounded flex flex-col md:flex-row  rounded-xl gap-8">
               <div className="w-full lg:w-1/2">
                 <img
-                  src="src/assets/cpc_paralax.jpg"
+                  src="cpc_paralax.jpg"
                   alt=""
                   className="w-full h-full object-contain "
                 />
@@ -36,7 +36,7 @@ const Newsletter = () => {
             <div className="min-h-[280px]  w-11/12 sm:w-8/12 md:w-11/12 lg:w-5/12 bg-slate-800 p-5 rounded flex flex-col md:flex-row  rounded-xl gap-8">
               <div className="w-full lg:w-1/2">
                 <img
-                  src="src/assets/cpc_paralax.jpg"
+                  src="cpc_paralax.jpg"
                   alt=""
                   className="w-full h-full object-contain "
                 />

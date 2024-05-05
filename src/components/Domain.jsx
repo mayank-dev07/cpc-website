@@ -35,7 +35,7 @@ const Domain = () => {
         ))}
         {/* <div className="min-h-[280px] w-10/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded- p-5 flex flex-col  hover:scale-110 transition-transform duration-500">
           <div className="w-full flex justify-center py-4">
-            <img src="src/assets/database.png" alt="" width={"40px"} />
+            <img src="database.png" alt="" width={"40px"} />
           </div>
           <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-[#0EC9AC]  py-4">
             Database&nbsp;Security
@@ -50,7 +50,7 @@ const Domain = () => {
           className="min-h-[280px] w-10/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded- p-5 flex flex-col  hover:scale-110 transition-transform duration-500"
         >
           <div className="w-full flex justify-center py-4">
-            <img src="src/assets/globe.png" alt="" width={"40px"} />
+            <img src="globe.png" alt="" width={"40px"} />
           </div>
           <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-[#0EC9AC]  py-4">
             Cloud&nbsp;Security
@@ -65,7 +65,7 @@ const Domain = () => {
           className="min-h-[280px] w-10/12 sm:w-1/2 md:w-1/4 lg:w-1/5 bg-slate-800 rounded- p-5 flex flex-col  hover:scale-110 transition-transform duration-500"
         >
           <div className="w-full flex justify-center py-4">
-            <img src="src/assets/security.png" alt="" width={"40px"} />
+            <img src="security.png" alt="" width={"40px"} />
           </div>
           <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-[#0EC9AC]  py-4">
             Network&nbsp;Security

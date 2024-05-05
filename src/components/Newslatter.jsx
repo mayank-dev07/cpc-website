@@ -9,7 +9,7 @@ export const Newslatter = () => {
 
     <div className='w-5/12 flex justify-center items-center py-4 bg-green-200 gap-6'>
      <div className='w-1/2'>
-        <img src='src/assets/database.png' />
+        <img src='database.png' />
      </div>
      <div className='flex text-base font-sans w-1/2'>
         <span> Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -20,7 +20,7 @@ export const Newslatter = () => {
     </div>
     <div className='w-5/12 flex justify-center items-center py-16 h-full'>
      <div className=''>
-        <img src='src/assets/database.png' />
+        <img src='database.png' />
      </div>
      <div className='flex text-base font-sans '>
         <span> Lorem Ipsum is simply dummy text of the printing and typesetting
