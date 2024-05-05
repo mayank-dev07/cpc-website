@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       <div className=" h-full bg-cover w-full md:w-1/2 flex justify-center items-center">
-        <img src="src\assets\cyber.png"></img>
+        <img src="cyber.png"></img>
       </div>
     </>
   );
