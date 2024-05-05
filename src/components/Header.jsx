@@ -57,11 +57,11 @@ const Header = ({ scrollToSection }) => {
       <Menu onClick={showDrawer} className="flex md:hidden " />
 
       <Drawer
-        title ={
+        title={
           <>
             <div className="w-full flex flex-row justify-between  ">
               <div>Cyber Peace cell</div>
-              <X onClick={onClose}/>
+              <X onClick={onClose} />
             </div>
           </>
         }
@@ -74,13 +74,13 @@ const Header = ({ scrollToSection }) => {
         <div className="flex flex-col gap-8 text-white">
           <p
             className="cursor-pointer"
-            onClick={() => handelDrawerClick("first")}
+            onClick={() => handelDrawerClick("home")}
           >
             HOME
           </p>
           <p
             className="cursor-pointer"
-            onClick={() => handelDrawerClick("second")}
+            onClick={() => handelDrawerClick("domain")}
           >
             DOMAIN
           </p>
