@@ -36,7 +36,7 @@ function App() {
         <Header scrollToSection={scrollToSection} />
         <div className="fixed h-full w-full flex justify-center items-center ">
           <img
-            src="cpclogo.png"
+            src="/cpclogo.png"
             alt=""
             className="h-min w-full md:w-1/2 lg:w-1/3 opacity-40"
           />

@@ -10,7 +10,7 @@ const Members = () => {
       <div className="flex flex-wrap flex-row w-full justify-center items-center px-0 md:px-8 lg:px-12 gap-8 lg:gap-12">
         <div className="h-full md:min-h-[180px] w-10/12 sm:w-1/4 md:w-1/5 lg:w-1/6 bg-slate-800 rounded-lg p-5 flex flex-col  ">
           <div className="w-full flex justify-center ">
-            <img src="security.png" alt="" width={"50px"} />
+            <img src="/security.png" alt="" width={"50px"} />
           </div>
           <p className="text-center text-xl text-[#0EC9AC] pt-4 ">
             Network Security
@@ -18,7 +18,7 @@ const Members = () => {
         </div>{" "}
         <div className="h-full md:min-h-[180px] w-10/12 sm:w-1/4 md:w-1/5 lg:w-1/6 bg-slate-800 rounded-lg p-5 flex flex-col  ">
           <div className="w-full flex justify-center ">
-            <img src="security.png" alt="" width={"50px"} />
+            <img src="/security.png" alt="" width={"50px"} />
           </div>
           <p className="text-center text-xl text-[#0EC9AC] pt-4 ">
             Network Security
@@ -26,7 +26,7 @@ const Members = () => {
         </div>{" "}
         <div className="h-full md:min-h-[180px] w-10/12 sm:w-1/4 md:w-1/5 lg:w-1/6 bg-slate-800 rounded-lg p-5 flex flex-col  ">
           <div className="w-full flex justify-center ">
-            <img src="security.png" alt="" width={"50px"} />
+            <img src="/security.png" alt="" width={"50px"} />
           </div>
           <p className="text-center text-xl text-[#0EC9AC] pt-4 ">
             Network Security
@@ -34,7 +34,7 @@ const Members = () => {
         </div>{" "}
         <div className="h-full md:min-h-[180px] w-10/12 sm:w-1/4 md:w-1/5 lg:w-1/6 bg-slate-800 rounded-lg p-5 flex flex-col  ">
           <div className="w-full flex justify-center ">
-            <img src="security.png" alt="" width={"50px"} />
+            <img src="/security.png" alt="" width={"50px"} />
           </div>
           <p className="text-center text-xl text-[#0EC9AC] pt-4 ">
             Network Security
@@ -42,7 +42,7 @@ const Members = () => {
         </div>
         <div className="h-full md:min-h-[180px] w-10/12 sm:w-1/4 md:w-1/5 lg:w-1/6 bg-slate-800 rounded-lg p-5 flex flex-col  ">
           <div className="w-full flex justify-center ">
-            <img src="database.png" alt="" width={"50px"} />
+            <img src="/database.png" alt="" width={"50px"} />
           </div>
           <p className="text-center text-xl text-[#0EC9AC] pt-4 ">
             Database Security
@@ -50,7 +50,7 @@ const Members = () => {
         </div>{" "}
         <div className="h-full md:min-h-[180px] w-10/12 sm:w-1/4 md:w-1/5 lg:w-1/6 bg-slate-800 rounded-lg p-5 flex flex-col  ">
           <div className="w-full flex justify-center ">
-            <img src="globe.png" alt="" width={"50px"} />
+            <img src="/globe.png" alt="" width={"50px"} />
           </div>
           <p className="text-center text-xl text-[#0EC9AC] pt-4 ">
             Cloud Security
@@ -58,7 +58,7 @@ const Members = () => {
         </div>{" "}
         <div className="h-full md:min-h-[180px] w-10/12 sm:w-1/4 md:w-1/5 lg:w-1/6 bg-slate-800 rounded-lg p-5 flex flex-col  ">
           <div className="w-full flex justify-center ">
-            <img src="security.png" alt="" width={"50px"} />
+            <img src="/security.png" alt="" width={"50px"} />
           </div>
           <p className="text-center text-xl text-[#0EC9AC] pt-4 ">
             Network Security

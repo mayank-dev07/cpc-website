@@ -28,8 +28,8 @@ const Home = () => {
           scrambled it to make a type specimen book.
         </div>
       </div>
-      <div className=" h-full w-full md:w-1/2 flex justify-center items-center">
-        <img src="cyber.png"></img>
+      <div className=" h-full bg-cover w-full md:w-1/2 flex justify-center items-center">
+        <img src="src\assets\cyber.png"></img>
       </div>
     </>
   );
