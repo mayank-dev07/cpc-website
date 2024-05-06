@@ -15,7 +15,7 @@ const Main = () => {
         <img
           src="/cpclogo.png"
           alt=""
-          className=" opacity-20 lg:opacity-20 h-max w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center"
+          className=" opacity-20 lg:opacity-20 h-1/2 md:h-full w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center"
         />
       </div>
       <div className="w-full h-full flex flex-col relative justify-center items-center">
