@@ -6,18 +6,18 @@ import MyTerminal from "./MyTerminal";
 const Home = () => {
   return (
     <>
-      <div className="h-full bg-cover w-full md:w-1/2 flex justify-between items-center">
-        <div className="w-full h-full">
+      <div className="h-full w-full md:w-1/2 flex justify-center items-center">
+        <div className="w-full h-full flex justify-center items-center">
           <div
             className=" w-full h-[347px]
-           flex flex-col"
+           flex flex-col justify-center items-center"
           >
             <MyTerminal />
           </div>
         </div>
       </div>
       <div className=" h-full w-full md:w-1/2 mt-8 md:mt-0">
-        <div className="text-2xl md:text-3xl lg:text-5xl text-center text-[#0EC9AC] flex justify-center item-center pt-8 md:py-6 md: w-full">
+        <div className="text-2xl md:text-3xl lg:text-4xl text-center text-[#0EC9AC] flex justify-center item-center pt-8 md:py-4 md: w-full">
           Cyber&nbsp;Peace&nbsp;
           <ReactTyped
             strings={["Security", "Cell"]}
