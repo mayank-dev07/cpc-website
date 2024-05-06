@@ -11,13 +11,13 @@ import Newsletter from "./Newsletter";
 const Main = () => {
   return (
     <>
-      {/* <div className="fixed h-full w-full flex justify-center items-center"> */}
-      <img
-        src="/cpclogo.png"
-        alt=""
-        className=" opacity-20 lg:opacity-20 h-max w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center"
-      />
-      {/* </div> */}
+      <div className="fixed h-full w-full flex justify-center items-center">
+        <img
+          src="/cpclogo.png"
+          alt=""
+          className=" opacity-20 lg:opacity-20 h-max w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center"
+        />
+      </div>
       <div className="w-full h-full flex flex-col relative justify-center items-center">
         <ScrollSpy offsetTop={"64px"}>
           <div
