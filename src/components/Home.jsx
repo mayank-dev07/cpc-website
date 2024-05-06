@@ -6,7 +6,7 @@ import MyTerminal from "./MyTerminal";
 const Home = () => {
   return (
     <>
-      <div className="h-full bg-cover w-full md:w-1/2 flex justify-center items-center">
+      <div className="h-full bg-cover w-full md:w-1/2 flex justify-between items-center">
         {/* <img src="cyber.png"></img> */}
         <div className="w-full h-full">
           {/* <div className="w-full flex justify-center items-center text-[#0EC9AC] text-2xl md:text-3xl lg:text-5xl py-4">
@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" h-full w-full md:w-1/2 ">
+      <div className=" h-full w-full md:w-1/2 mt-5 md:mt-0">
         <div className="text-2xl md:text-3xl lg:text-5xl text-center text-[#0EC9AC] flex justify-center item-center py-6 md: w-full">
           Cyber&nbsp;Peace&nbsp;
           <ReactTyped
