@@ -11,7 +11,10 @@ import Newsletter from "./Newsletter";
 const Main = () => {
   return (
     <>
-      <div className="fixed h-full w-full flex justify-center items-center bg-cover bg-[url('/cpc_paralax.jpg')]">
+      <div
+        className="fixed h-full w-full flex justify-center items-center bg-contain bg-[url('/cpclogo.png
+      ')]"
+      >
         {/* <img
           src="/cpclogo.png"
           alt=""
