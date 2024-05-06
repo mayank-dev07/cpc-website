@@ -1,10 +1,25 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
+import MyTerminal from "./MyTerminal";
 // import Terminal from "./Terminal";
 
 const Home = () => {
   return (
     <>
+      <div className="h-full bg-cover w-full md:w-1/2 flex justify-center items-center">
+        {/* <img src="cyber.png"></img> */}
+        <div className="w-full h-full">
+          {/* <div className="w-full flex justify-center items-center text-[#0EC9AC] text-2xl md:text-3xl lg:text-5xl py-4">
+            Terminal
+          </div> */}
+          <div
+            className=" w-full h-[347px]
+           flex flex-col"
+          >
+            <MyTerminal />
+          </div>
+        </div>
+      </div>
       <div className=" h-full w-full md:w-1/2 ">
         <div className="text-2xl md:text-3xl lg:text-5xl text-center text-[#0EC9AC] flex justify-center item-center py-6 md: w-full">
           Cyber&nbsp;Peace&nbsp;
@@ -27,9 +42,6 @@ const Home = () => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </div>
-      </div>
-      <div className=" h-full bg-cover w-full md:w-1/2 flex justify-center items-center">
-        <img src="cyber.png"></img>
       </div>
     </>
   );
