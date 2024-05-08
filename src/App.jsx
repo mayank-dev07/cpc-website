@@ -37,6 +37,14 @@ function App() {
     >
       <div className="flex flex-col min-h-screen max-w-screen relative  bg-[#030213] text-white font-mono">
         <Header scrollToSection={scrollToSection} />
+        {/* <video
+          autoPlay
+          muted
+          loop
+          className="rotate-180 absolute top-[-340px]  h-full w-full left-0 z-[1] object-cover "
+        >
+          <source src="/blackhole.webm" type="video/webm" />
+        </video> */}
         <div className="w-full h-full flex flex-col gap-16">
           <Main />
         </div>
