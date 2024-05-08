@@ -6,7 +6,9 @@ const Newsletter = () => {
       <div className=" w-full h-full bg-cover bg-no-repeat bg-fixed ">
         <div className="flex flex-col justify-center items-center backdrop-grayscale w-full h-full py-12 gap-6">
           <div className="w-full flex flex-col justify-center items-center gap-4 pt-4">
-            <p className="text-[#0EC9AC] text-2xl ">Our Newsletters</p>
+            <p className="text-transparent bg-clip-text text-cyan-500 text-2xl ">
+              Our Newsletters
+            </p>
             <p className="text-4xl">Club Preview</p>
           </div>
           <div className="flex flex-col lg:flex-row w-full justify-evenly items-center gap-8">

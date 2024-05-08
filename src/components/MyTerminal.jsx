@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import Terminal from "react-console-emulator";
+import { ReactTyped } from "react-typed";
 
 const members = [
   { name: "epmdpomwe" },
@@ -33,7 +34,7 @@ const helps = [
 
 const MyTerminal = () => {
   const WelcomeMessage = () => (
-    <div className="text-[#0EC9AC] text-base md:text-lg">
+    <div className="text-transparent bg-clip-text text-cyan-500 text-base md:text-lg">
       <div>Enter one of these commands:</div>
       <br />
       about:- About club.
@@ -87,8 +88,15 @@ const MyTerminal = () => {
 
   return (
     <div className="h-[400px] md:h-[500px] w-full ">
-      <div className="text-[#0EC9AC] text-center w-full text-base md:text-xl py-4">
-        <>Welcome to Cyber Security Club!</>
+      <div className="text-2xl md:text-3xl lg:text-4xl text-center text-transparent bg-clip-text text-cyan-500 flex justify-center item-center pt-8 md:py-4 md: w-full">
+        Cyber&nbsp;Peace&nbsp;
+        <ReactTyped
+          strings={["Security", "Cell"]}
+          typeSpeed={70}
+          backSpeed={60}
+          showCursor={true}
+          loop
+        />
       </div>
       <Terminal
         welcomeMessage={<WelcomeMessage />}

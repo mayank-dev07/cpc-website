@@ -3,7 +3,10 @@ import React from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+
 import { ConfigProvider } from "antd";
+// import ThreeCanvas from "./components/ParticleWave";
+import ParticleWave from "./components/Particles";
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -18,11 +21,11 @@ function App() {
       theme={{
         components: {
           Drawer: {
-            colorBgElevated: "#00142C",
+            colorBgElevated: "#030213",
             colorText: "#ffffff",
           },
           Timeline: {
-            tailColor: "#0EC9AC",
+            tailColor: "#05b3d1",
             margin: 30,
             lineHeight: 8,
             lineType: "dashed",
@@ -32,10 +35,11 @@ function App() {
         },
       }}
     >
-      <div className="flex flex-col min-h-screen max-w-screen  bg-[#00142C] text-white font-mono">
+      <div className="flex flex-col min-h-screen max-w-screen relative  bg-[#030213] text-white font-mono">
         <Header scrollToSection={scrollToSection} />
-
-        <Main />
+        <div className="w-full h-full flex flex-col gap-16">
+          <Main />
+        </div>
         <Footer />
       </div>
     </ConfigProvider>

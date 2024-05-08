@@ -12,7 +12,9 @@ const Domain = () => {
   return (
     <>
       <div className="w-full flex flex-col justify-center items-center gap-4">
-        <p className="text-[#0EC9AC] text-2xl ">Our Domain</p>
+        <p className="text-transparent bg-clip-text text-cyan-500 text-2xl ">
+          Our Domain
+        </p>
         <p className="text-4xl ">What We Offer</p>
       </div>
       <div className="flex flex-wrap flex-row w-full justify-center items-center  gap-8 ">
@@ -24,7 +26,7 @@ const Domain = () => {
             <div className="w-full flex justify-center py-4">
               <img src={item.img} alt="" width={"40px"} />
             </div>
-            <p className="w-full flex justify-center items-center text-2xl text-center text-[#0EC9AC]  py-4">
+            <p className="w-full flex justify-center items-center text-2xl text-center text-transparent bg-clip-text text-cyan-500  py-4">
               {item.name}
             </p>
             <p className="text-center  text-base ">
@@ -37,7 +39,7 @@ const Domain = () => {
           <div className="w-full flex justify-center py-4">
             <img src="/database.png" alt="" width={"40px"} />
           </div>
-          <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-[#0EC9AC]  py-4">
+          <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-transparent bg-clip-text text-cyan-500  py-4">
             Database&nbsp;Security
           </p>
           <p className="text-center  text-base">
@@ -52,7 +54,7 @@ const Domain = () => {
           <div className="w-full flex justify-center py-4">
             <img src="/globe.png" alt="" width={"40px"} />
           </div>
-          <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-[#0EC9AC]  py-4">
+          <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-transparent bg-clip-text text-cyan-500  py-4">
             Cloud&nbsp;Security
           </p>
           <p className="text-center  text-base">
@@ -67,7 +69,7 @@ const Domain = () => {
           <div className="w-full flex justify-center py-4">
             <img src="/security.png" alt="" width={"40px"} />
           </div>
-          <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-[#0EC9AC]  py-4">
+          <p className="w-full flex justify-center items-center text-2xl md:text-3xl text-transparent bg-clip-text text-cyan-500  py-4">
             Network&nbsp;Security
           </p>
           <p className="text-center  text-base">

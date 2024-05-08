@@ -9,14 +9,14 @@ const EventTimeline = () => {
         <Timeline
           items={[
             {
-              color: "#0EC9AC",
-              dot: <Clock size={40} className="bg-[#00142C] " />,
+              color: "#06b6d4",
+              dot: <Clock size={40} className="bg-[#030213] " />,
 
               children: (
                 <>
-                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-[#0EC9AC] text-lg rounded-lg shadow-md shadow-[#0EC9AC] px-3 md:px-8 py-4">
+                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-transparent bg-clip-text text-cyan-500 text-lg rounded-lg shadow-md shadow-cyan-500 px-3 md:px-8 py-4">
                     <div className="w-full flex justify-between items-center">
-                      <span className=" w-fit px-3 py-1 bg-[#00142C] border-[#00142C] rounded-lg text-sm md:text-base">
+                      <span className=" w-fit px-3 py-1 bg-[#030213] border-[#030213] rounded-lg text-sm md:text-base">
                         29 May 2024
                       </span>
                       <div className="flex gap-4 text-sm md:text-base">
@@ -50,13 +50,13 @@ const EventTimeline = () => {
               ),
             },
             {
-              color: "#0EC9AC",
-              dot: <Clock size={40} className="bg-[#00142C] " />,
+              color: "#06b6d4",
+              dot: <Clock size={40} className="bg-[#030213] " />,
               children: (
                 <>
-                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-[#0EC9AC] text-lg rounded-lg shadow-md shadow-[#0EC9AC] px-3 md:px-8 py-4">
+                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-transparent bg-clip-text text-cyan-500 text-lg rounded-lg shadow-md shadow-cyan-500 px-3 md:px-8 py-4">
                     <div className="w-full flex justify-between items-center">
-                      <span className=" w-fit px-3 py-1 bg-[#00142C] border-[#00142C] rounded-lg text-sm md:text-base">
+                      <span className=" w-fit px-3 py-1 bg-[#030213] border-[#030213] rounded-lg text-sm md:text-base">
                         29 May 2024
                       </span>
                       <div className="flex gap-4 text-sm md:text-base">
@@ -89,14 +89,14 @@ const EventTimeline = () => {
               ),
             },
             {
-              color: "#0EC9AC",
-              dot: <Clock size={40} className="bg-[#00142C] " />,
+              color: "#06b6d4",
+              dot: <Clock size={40} className="bg-[#030213] " />,
 
               children: (
                 <>
-                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-[#0EC9AC] text-lg rounded-lg shadow-md shadow-[#0EC9AC] px-3 md:px-8 py-4">
+                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-transparent bg-clip-text text-cyan-500 text-lg rounded-lg shadow-md shadow-cyan-500 px-3 md:px-8 py-4">
                     <div className="w-full flex justify-between items-center">
-                      <span className=" w-fit px-3 py-1 bg-[#00142C] border-[#00142C] rounded-lg text-sm md:text-base">
+                      <span className=" w-fit px-3 py-1 bg-[#030213] border-[#030213] rounded-lg text-sm md:text-base">
                         29 May 2024
                       </span>
                       <div className="flex gap-4 text-sm md:text-base">
@@ -130,14 +130,14 @@ const EventTimeline = () => {
               ),
             },
             {
-              color: "#0EC9AC",
-              dot: <Clock size={40} className="bg-[#00142C] " />,
+              color: "#06b6d4",
+              dot: <Clock size={40} className="bg-[#030213] " />,
 
               children: (
                 <>
-                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-[#0EC9AC] text-lg rounded-lg shadow-md shadow-[#0EC9AC] px-3 md:px-8 py-4">
+                  <div className="h-full mb-4 w-full flex flex-col bg-slate-800 text-transparent bg-clip-text text-cyan-500 text-lg rounded-lg shadow-md shadow-cyan-500 px-3 md:px-8 py-4">
                     <div className="w-full flex justify-between items-center">
-                      <span className=" w-fit px-3 py-1 bg-[#00142C] border-[#00142C] rounded-lg text-sm md:text-base">
+                      <span className=" w-fit px-3 py-1 bg-[#030213] border-[#030213] rounded-lg text-sm md:text-base">
                         29 May 2024
                       </span>
                       <div className="flex gap-4 text-sm md:text-base">
