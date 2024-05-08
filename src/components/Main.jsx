@@ -19,7 +19,7 @@ const Main = () => {
           alt=""
           className=" opacity-80 lg:opacity-20 h-1/2 md:h-full w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center z-50"
         />
-        {/* <ParticleWave /> */}
+        <ParticleWave />
         <video
           autoPlay
           muted
@@ -47,13 +47,13 @@ const Main = () => {
           </div>
           <div
             id="event"
-            className="h-full flex flex-col justify-center items-center "
+            className="h-full flex flex-col justify-center items-center py-8 md:py-16"
           >
             <Events />
           </div>
           <div
             id="timeline"
-            className="h-full flex flex-col justify-center items-center gap-8 backdrop-grayscale-0"
+            className="h-full flex flex-col justify-center items-center gap-8 backdrop-grayscale-0 py-4 md:py-6"
           >
             <div className="w-full flex flex-col justify-center items-center gap-4 mb-20">
               <p className=" text-cyan-500 text-2xl pt-16">Our Timeline</p>
@@ -64,17 +64,30 @@ const Main = () => {
 
           <div
             id="newsletter"
-            className="h-full flex flex-col justify-center items-center gap-8"
+            className="h-full flex flex-col justify-center items-center gap-8 py-4 md:py-12"
           >
             <Newsletter />
           </div>
 
           <div
             id="members"
-            className="h-full py-16 flex flex-col justify-center items-center gap-8"
+            className="h-full py-10 md:py-16 flex flex-col justify-center items-center gap-8"
           >
             <Members />
           </div>
+          {/* <div className="w-full h-full "> */}
+          {/* <div className="w-full h-full z-[-10] opacity-100 absolute flex items-center justify-center bg-cover"> */}
+          {/* <video
+            className="w-screen h-[700px] transform object-contain"
+            preload="false"
+            playsInline
+            loop
+            muted
+            autoPlay
+            src="/cards-video.webm"
+          /> */}
+          {/* </div> */}
+          {/* </div> */}
         </ScrollSpy>
       </div>
     </>

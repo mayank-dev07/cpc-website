@@ -20,7 +20,7 @@ const Header = ({ scrollToSection }) => {
   };
 
   return (
-    <div className="flex z-[40] h-20  border-b-[1px] border-[#00142C] text-cyan-500 justify-between items-center gap-8 fixed top-0 right-0 w-full font-medium  px-8 backdrop-blur-lg">
+    <div className="flex z-[40] h-20  text-cyan-500 justify-between items-center gap-8 fixed top-0 right-0 w-full font-medium  px-8 backdrop-blur-lg">
       <div>$~</div>
       <div className="hidden md:flex gap-8 ">
         <p className="cursor-pointer" onClick={() => handleLinkClick("home")}>
