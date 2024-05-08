@@ -5,8 +5,13 @@ import Countdown from "./Countdown";
 const Events = () => {
   return (
     <>
+<<<<<<< Updated upstream
       <div className=" w-full h-full bg-cover bg-no-repeat bg-fixed bg-[url('/cpc_paralax.jpg')]">
         <div className="flex flex-col justify-center items-center backdrop-grayscale w-full h-full py-12">
+=======
+      <div className=" w-full h-full bg-cover bg-no-repeat bg-fixed bg-[url('cpc_paralax.jpg')]">
+        <div className="flex flex-col justify-center items-center backdrop-grayscale w-full h-full py-8">
+>>>>>>> Stashed changes
           <div className="h-full w-full md:w-1/2 py-4 flex flex-col gap-12 ">
             <div className="  text-center flex gap-6 md:gap-10 justify-center ">
               <div className="flex gap-4 ">
@@ -39,7 +44,7 @@ const Events = () => {
               </button>
             </div>
             <div className="h-full w-full pt-6">
-              <Countdown targetDate={"2024-05-07T12:12:12"} />
+              <Countdown targetDate={"2024-06`-09T22:29:00"} />
             </div>
           </div>
         </div>
