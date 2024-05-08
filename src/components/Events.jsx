@@ -20,7 +20,7 @@ const Events = () => {
               </div>
             </div>
             <div className="w-full  text-center  font-bold  text-6xl">
-              <p className="w-full text-transparent bg-clip-text text-cyan-500 text-5xl md:text-7xl ">
+              <p className="w-full  text-cyan-500 text-5xl md:text-7xl ">
                 BOOTCAMP
               </p>
               {/* <p className="text-5xl md:text-7xl text-gray-500"> EVENTS</p> */}

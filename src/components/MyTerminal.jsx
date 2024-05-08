@@ -34,7 +34,7 @@ const helps = [
 
 const MyTerminal = () => {
   const WelcomeMessage = () => (
-    <div className="text-transparent bg-clip-text text-cyan-500 text-base md:text-lg">
+    <div className=" text-cyan-500 text-base md:text-lg">
       <div>Enter one of these commands:</div>
       <br />
       about:- About club.
@@ -88,7 +88,7 @@ const MyTerminal = () => {
 
   return (
     <div className="h-[400px] md:h-[500px] w-full ">
-      <div className="text-2xl md:text-3xl lg:text-4xl text-center text-transparent bg-clip-text text-cyan-500 flex justify-center item-center pt-8 md:py-4 md: w-full">
+      <div className="text-2xl md:text-3xl lg:text-4xl text-center  text-cyan-500 flex justify-center item-center pt-8 md:py-4 md: w-full">
         Cyber&nbsp;Peace&nbsp;
         <ReactTyped
           strings={["Security", "Cell"]}
