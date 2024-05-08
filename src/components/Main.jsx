@@ -56,9 +56,7 @@ const Main = () => {
             className="h-full flex flex-col justify-center items-center gap-8 backdrop-grayscale-0"
           >
             <div className="w-full flex flex-col justify-center items-center gap-4 mb-20">
-              <p className="text-transparent bg-clip-text text-cyan-500 text-2xl pt-16">
-                Our Timeline
-              </p>
+              <p className=" text-cyan-500 text-2xl pt-16">Our Timeline</p>
               <p className="text-4xl ">About Club</p>
             </div>
             <EventTimeline />
