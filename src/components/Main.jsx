@@ -17,7 +17,7 @@ const Main = () => {
         <img
           src="/cpclogo.png"
           alt=""
-          className="opacity-80 md:opacity-40 blur-sm h-1/2 md:h-full w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center z-50"
+          className="opacity-80 md:opacity-20 h-1/2 md:h-full w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center z-50"
         />
         {/* <ParticleWave /> */}
         <video
