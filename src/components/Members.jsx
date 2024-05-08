@@ -4,9 +4,7 @@ const Members = () => {
   return (
     <>
       <div className="w-full flex flex-col justify-center items-center gap-4 pt-12">
-        <p className="text-transparent bg-clip-text text-cyan-500 text-2xl ">
-          Our Members
-        </p>
+        <p className=" text-cyan-500 text-2xl ">Our Members</p>
         <p className="text-4xl ">Meet Our Team</p>
       </div>
       <div className="flex flex-wrap flex-row w-full justify-center items-center px-0 md:px-8 lg:px-12 gap-8 lg:gap-12">
@@ -14,7 +12,7 @@ const Members = () => {
           <div className="w-full flex justify-center ">
             <img src="/security.png" alt="" width={"50px"} />
           </div>
-          <p className="text-center text-xl text-transparent bg-clip-text text-cyan-500 pt-4 ">
+          <p className="text-center text-xl  text-cyan-500 pt-4 ">
             Network Security
           </p>
         </div>{" "}
@@ -22,7 +20,7 @@ const Members = () => {
           <div className="w-full flex justify-center ">
             <img src="/security.png" alt="" width={"50px"} />
           </div>
-          <p className="text-center text-xl text-transparent bg-clip-text text-cyan-500 pt-4 ">
+          <p className="text-center text-xl  text-cyan-500 pt-4 ">
             Network Security
           </p>
         </div>{" "}
@@ -30,7 +28,7 @@ const Members = () => {
           <div className="w-full flex justify-center ">
             <img src="/security.png" alt="" width={"50px"} />
           </div>
-          <p className="text-center text-xl text-transparent bg-clip-text text-cyan-500 pt-4 ">
+          <p className="text-center text-xl  text-cyan-500 pt-4 ">
             Network Security
           </p>
         </div>{" "}
@@ -38,7 +36,7 @@ const Members = () => {
           <div className="w-full flex justify-center ">
             <img src="/security.png" alt="" width={"50px"} />
           </div>
-          <p className="text-center text-xl text-transparent bg-clip-text text-cyan-500 pt-4 ">
+          <p className="text-center text-xl  text-cyan-500 pt-4 ">
             Network Security
           </p>
         </div>
@@ -46,7 +44,7 @@ const Members = () => {
           <div className="w-full flex justify-center ">
             <img src="/database.png" alt="" width={"50px"} />
           </div>
-          <p className="text-center text-xl text-transparent bg-clip-text text-cyan-500 pt-4 ">
+          <p className="text-center text-xl  text-cyan-500 pt-4 ">
             Database Security
           </p>
         </div>{" "}
@@ -54,7 +52,7 @@ const Members = () => {
           <div className="w-full flex justify-center ">
             <img src="/globe.png" alt="" width={"50px"} />
           </div>
-          <p className="text-center text-xl text-transparent bg-clip-text text-cyan-500 pt-4 ">
+          <p className="text-center text-xl  text-cyan-500 pt-4 ">
             Cloud Security
           </p>
         </div>{" "}
@@ -62,7 +60,7 @@ const Members = () => {
           <div className="w-full flex justify-center ">
             <img src="/security.png" alt="" width={"50px"} />
           </div>
-          <p className="text-center text-xl text-transparent bg-clip-text text-cyan-500 pt-4 ">
+          <p className="text-center text-xl  text-cyan-500 pt-4 ">
             Network Security
           </p>
         </div>
