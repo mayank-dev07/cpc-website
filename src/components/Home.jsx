@@ -10,7 +10,7 @@ const Home = () => {
       <div className="h-full w-11/12 md:w-10/12 lg:w-1/2 flex justify-center items-center">
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className=" w-full h-[347px]
+            className=" w-full h-full
            flex flex-col justify-center items-center"
           >
             <MyTerminal />

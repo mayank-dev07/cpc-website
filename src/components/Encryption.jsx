@@ -2,7 +2,7 @@
 import React from "react";
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center  w-full h-full">
+    <div className="flex flex-row relative items-center justify-center z-10  w-full h-full">
       <div className="w-full flex items-start justify-center ">
         <video
           loop

@@ -88,7 +88,7 @@ const MyTerminal = () => {
 
   return (
     <div className="h-[400px] md:h-[500px] w-full ">
-      <div className="text-2xl md:text-3xl lg:text-4xl text-center  text-cyan-500 flex justify-center item-center pt-8 py-4 md:py-8 md: w-full">
+      <div className="text-2xl md:text-3xl lg:text-4xl text-center  text-cyan-500 flex justify-center item-center pb-5 md: w-full">
         Cyber&nbsp;Peace&nbsp;
         <ReactTyped
           strings={["Security", "Cell"]}

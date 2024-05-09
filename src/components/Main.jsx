@@ -19,23 +19,26 @@ const Main = () => {
           alt=""
           className="opacity-40 md:opacity-20 h-1/2 md:h-full w-full md:w-1/2 bg-cover mt-20 xl:mt-0 flex items-center z-50"
         />
-        {/* <ParticleWave /> */}
-        {/* <video
-          autoPlay
-          muted
-          loop
-          className="rotate-180 opacity-90 absolute flex justify-center items-center  h-full w-full z-[1] object-cover "
-        >
-          <source src="/blackhole.webm" type="video/webm" />
-        </video> */}
+        {/* <ParticleWave />   */}
       </div>
       <div className="w-full h-full flex flex-col relative justify-center items-center">
         <ScrollSpy offsetTop={"64px"}>
           <div
             id="home"
-            className="min-h-screen flex flex-col md:flex-row justify-center items-center px-2 md:px-6 gap-10 md:gap-16 py-20  md:py-0"
+            className="min-h-screen flex flex-col md:flex-row justify-center items-center px-2 md:px-6 gap-10 md:gap-16 py-20  md:py-0 relative"
           >
-            <Home />
+            {/* <video
+              autoPlay
+              muted
+              loop
+              className="rotate-180 absolute top-[-400px] opacity-20 h-full w-full left-0 z-[1] object-cover "
+            >
+              <source src="/blackhole.webm" type="video/webm" />
+            </video> */}
+
+            <div className="z-10 flex w-full h-full justify-center items-center">
+              <Home />
+            </div>
           </div>
 
           <Encryption />
