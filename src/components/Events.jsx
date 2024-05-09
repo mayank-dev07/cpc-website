@@ -5,7 +5,7 @@ import Countdown from "./Countdown";
 const Events = () => {
   return (
     <>
-      <div className=" w-full h-full bg-cover bg-no-repeat bg-fixed bg-[url('public/cpc_paralax.jpg')]">
+      <div className=" w-full h-full bg-cover bg-fixed  bg-[url('/cpc_paralax.jpg')]">
         <div className="flex flex-col justify-center items-center backdrop-grayscale w-full h-full py-8">
           <div className="h-full w-full md:w-1/2 py-4 flex flex-col gap-12 ">
             <div className="  text-center flex gap-6 md:gap-10 justify-center ">
