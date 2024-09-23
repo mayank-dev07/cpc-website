@@ -16,3 +16,41 @@
 ::-webkit-scrollbar-thumb{
    background:#05b3d1;
 }
+.hover-container {
+    width: 200px; /* adjust as needed */
+    height: 200px; /* adjust as needed */
+    position: relative;
+    overflow: hidden;
+    background-color: #222;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .content-default, .content-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .5s ease-in-out;
+  }
+  
+  .content-hover {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .hover-container:hover .content-hover {
+    opacity: 1;
+    z-index: 2;
+  }
+  
+  .hover-container:hover .content-default {
+    opacity: 0;
+    z-index: 0;
+  }
+  

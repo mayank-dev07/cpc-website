@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+// import StarCanvas from "./components/StarCanvas";
 
 import { ConfigProvider } from "antd";
 // import ThreeCanvas from "./components/ParticleWave";
@@ -49,8 +50,13 @@ function App() {
           <Main />
         </div>
         <Footer />
+        <div  className="z-0 bg-[#040112]">
+
+        {/* <StarCanvas/> */}
+        </div>
       </div>
     </ConfigProvider>
+    
   );
 }
 
